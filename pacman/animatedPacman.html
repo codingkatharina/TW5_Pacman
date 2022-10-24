@@ -31,13 +31,13 @@
 "assets/images/pacman/pacman-0.png",
 		];
 
-		setInterval("AnimatePacman()", 200);
+		setInterval("AnimatePacman()", 80);
 		var x = 0;
 
 		function AnimatePacman() {
 			document.getElementById("img").src = images[x]
 			x++;
-			if (images.length == x) {
+			if (images.length === x) {
 				x = 0;
 			}
 		}
