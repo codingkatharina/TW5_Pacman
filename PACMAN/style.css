@@ -1,0 +1,42 @@
+/* "Asterix element" applies to all elements */
+* {    
+    outline: 1px dotted purple;
+}
+
+.game-background {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    margin: -2px; /* no more spacing between element */
+}
+
+.pacman {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-image: url('pacman.png');
+}
+
+.wall {
+    width: 50px;
+    height: 50px;
+    background-image: url('wall.png');
+    display: inline-block;
+}
+
+.cookie {
+    width: 50px; 
+    height: 50px;
+    display: inline-block;
+    background-image: url('cookie.png');
+}
+
+.ground {
+    width: 50px; 
+    height: 50px;
+    display: inline-block;
+    background-image: url('ground.png');
+}
